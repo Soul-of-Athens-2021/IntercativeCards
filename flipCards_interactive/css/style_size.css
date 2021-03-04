@@ -1,0 +1,83 @@
+/* styles for small devices */
+@media (max-width: 776px) {
+  div.parallax-img-1 {
+  background-attachment: scroll;
+  background-size: contain;
+  height: auto;
+  width: auto;
+  background-position: top;
+  max-width: 776px;
+}
+  div.col img{
+    width: 70%;
+    height: auto;
+    margin-top: -360px;
+  }
+}
+
+/* styles for extra small devices */
+@media (max-width: 650px) {
+  div.parallax-img-1 {
+  background-attachment: scroll;
+  background-size: contain;
+  height: 100%;
+  width: auto;
+  background-position: top;
+  max-width: 776px;
+
+}
+  div.col img{
+    width: 70%;
+    height: auto;
+    margin-top: -400px;
+  }
+}
+
+/* styles for extra extra small devices */
+@media (max-width: 550px) {
+  div.parallax-img-1 {
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  background-position: top;
+  max-width: 776px;
+  min-height: 400px;
+}
+  div.col img{
+    width: 70%;
+    height: auto;
+    margin-top: -60px;
+  }
+}
+
+@media (max-width: 450px) {
+  div.parallax-img-1 {
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  min-height: 200px;
+}
+  div.col img{
+    width: 80%;
+    height: auto;
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 350px) {
+  div.parallax-img-1 {
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  background-position: top;
+  max-width: 776px;
+}
+  div.col img{
+    width: 90%;
+    height: auto;
+    margin-top: -70px;
+  }
+}
